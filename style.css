@@ -1,0 +1,296 @@
+@font-face {
+    font-family: roboto;
+    src: url(fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: open_sans;
+    src: url(fonts/Open_Sans/static/OpenSans-Regular.ttf);
+}
+
+.body {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.background_div {
+    width: 100vw;
+    height: 847px;
+    background-color: rgba(0, 0, 0, 0.05);
+    background-image: url(flower-pattern.png), url(flower_pattern_right.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left, right;
+}
+
+.main_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top_div {
+    width: 1320px;
+    height: 113px;
+    margin:auto;
+}
+
+.one_line{
+    position: relative;
+}
+
+.coral_div {
+    display: flex;
+    justify-content: center;
+}
+
+.search_button {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+}
+
+.search_icon_button {
+    border: none;
+}
+
+.account_shoping_icon {
+    display: inline-block;
+}
+
+.shoping_button {
+    position: absolute;
+    right: 0;
+    top:0;
+    border: none;
+}
+
+.account_button {
+    position: absolute;
+    margin-left: 1097px;
+    top:0;
+    border: none;
+}
+
+.horisontal_line {
+    color: #E3E3E3;
+    margin:0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_buttons {
+    margin-top:30px;
+    border: none;
+}
+
+.bottom_div {
+    width: 1226px;
+    height: 562px;
+    margin: auto;
+    margin-top: 81px;
+    display: flex;
+}
+
+.left_div {
+    width: 686px;
+    height: 364px;
+}
+
+.left_div {
+    margin-top: 74px;
+}
+
+.h1 {
+    font-family: roboto;
+    font-size: 74px;
+    font-weight: thin;
+    line-height: 55px;
+    margin-top: 2px;
+}
+
+.paragraph1 {
+    font-family: roboto;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 55px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 2px;
+}
+
+.shop_now_button {
+    width: 223px;
+    height: 72px;
+    background-color: #1E2832;
+    color: white;
+    font-family: roboto;
+    font-size: 29px;
+    font-weight: 600;
+    background-image: url(shoping_bag_icon.png);
+    background-repeat: no-repeat;
+    background-position: top 20px left 19px;
+    margin-top: 66px;
+    margin-left: 4px;
+    border: none;
+}
+
+.right_div {
+    width: 442px;
+    height: 562px;
+    margin-left: 98px;
+    position: relative;
+}
+
+.border_div {
+    width: 424px;
+    height: 542px;
+    border:1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 160px 0 160px 0;
+    margin-left: 18px;
+    position: absolute;
+}
+
+.img_div {
+    width: 424px;
+    height: 542px;
+}
+
+.img_on_border {
+    border-radius: 160px 0 160px 0;
+    position:absolute ;
+    bottom: 40px;
+}
+
+.page2_top_div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+    margin-left: 110px;
+}
+
+.page2_list_buttons {
+    border: none;
+    background-color: white;
+    margin-top: 90px;
+}
+
+.page2_bottom_div {
+    display: flex;
+}
+
+.brown_dress_girl {
+    width: 628px;
+    height: 628px;
+    margin-left: 180px;
+}
+
+.page2_paragraph_div {
+    right: 165px;
+    position: relative;
+    bottom: -36px;
+}
+
+.page2_paragraph {
+    transform: rotate(270deg);
+    margin-left: 30px;
+    position: absolute;
+    bottom: 300px;
+    font-size: 34px;
+    font-family: roboto;
+    font-weight: 600;
+    text-align: center;
+    line-height: 39.84px;
+}
+
+.page2_right_div {
+    margin-left: 24px;
+}
+
+.page3_paragraph {
+    margin-top: 140px;
+    text-align: center;
+    font-family: roboto-regular;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 58.59px;
+}
+
+.page3_button_div {
+    margin-top: 35px;
+    margin-left: 160px;
+    position: relative;
+}
+
+.page3_button1 {
+    color: #000000;
+    font-family: open_sans;
+    border: none;
+    background-color: white;
+}
+
+.page3_button {
+    border: none;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: open_sans;
+}
+
+.button5 {
+    position: absolute;
+    right: 150px;
+    border: none;
+    background-color: #1E2832;
+    background-image: url(filter.png);
+    background-repeat: no-repeat;
+    background-position: left 20px center;
+    width: 92px;
+    height: 32px;
+    color: white;
+    font-family: open_sans;
+    font-size: 16px;
+    line-height: 21.79px;
+    padding-left: 30px;
+}
+
+.first_row {
+    display: flex;
+    margin-top: 35px;
+    flex-direction: column;
+
+}
+
+.img_list {
+    margin: auto;
+}
+
+.page3_images {
+    padding-left: 24px;
+}
+
+p{
+    display: inline-block;
+}
+
+.page3_paragraph_div {
+    display: flex;
+}
+
+.first_paragraph_div {
+    margin-left: 130px;
+}
+
+.price1 {
+    margin-left: 204px;
+}
+
+.bag_price {
+    margin-left: 52px;
+}
